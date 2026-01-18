@@ -1,3 +1,7 @@
+import { startGame } from "./game";
+
+
+
 const cells = [];
 
 function createBoard() {
@@ -16,3 +20,4 @@ function createBoard() {
 
 
 createBoard();
+startGame();
